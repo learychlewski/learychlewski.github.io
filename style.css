@@ -262,3 +262,16 @@ letter-spacing: 1px;
         gap: 20px;
     }
 }
+
+@media (min-width:320px){
+    .projet{
+        display: inline-block;
+    }
+}
+
+@media (min-width:720px){
+    .projet{
+        display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    }
+}
